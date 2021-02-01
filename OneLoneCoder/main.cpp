@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include "GameOfLife.h"
-
+#include "FormulaOLC.h"
 
 using namespace std;
 
@@ -33,9 +33,15 @@ int main(void)
 		break;
 	}
 	case 2:
-		cout << "Not implemented" << endl;
+	{
+		// Use olcConsoleGameEngine derived app
+		FormulaOLC game;
+		game.ConstructConsole(160, 100, 8, 8);
+		game.Start();
 
+		break;
 
+	}
 	default:
 		break;
 	}
