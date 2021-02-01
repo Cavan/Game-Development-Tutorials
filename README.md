@@ -12,7 +12,7 @@ This project contains various game projects made by following the tutorials prov
 
 #### 1: Cellular Automata
 
-​	![](.\OneLoneCoder\assets\CellularAutomata.gif)
+​	![](..\OneLoneCoder\assets\CellularAutomata.gif)
 
 ​		
 
